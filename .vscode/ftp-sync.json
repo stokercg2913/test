@@ -1,0 +1,24 @@
+{
+    "remotePath": "./",
+    "host": "coystoker.net",
+    "username": "SB_3948605@coystoker.net",
+    "password": "H+sArBt,v1;V",
+    "port": 21,
+    "secure": false,
+    "protocol": "ftp",
+    "uploadOnSave": false,
+    "passive": false,
+    "debug": false,
+    "privateKeyPath": null,
+    "passphrase": null,
+    "ignore": [
+        "\\.vscode",
+        "\\.git",
+        "\\.DS_Store"
+    ],
+    "generatedFiles": {
+        "uploadOnSave": false,
+        "extensionsToInclude": [],
+        "path": ""
+    }
+}
