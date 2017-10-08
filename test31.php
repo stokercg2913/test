@@ -9,7 +9,7 @@
 </head>
 
 <body>
-<form action="test21.php" method="get">
+<form action="test21.php" method="post">
     <label>First Name:</label>
     <input type="text" name="first_name"/><br />
     <label>Last Name:</label>

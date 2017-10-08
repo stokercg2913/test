@@ -1,6 +1,6 @@
 <?php
-$firstname = $_GET['first_name'];
-$lastname = $_GET['last_name'];
+$firstname = $_POST['first_name'];
+$lastname = $_POST['last_name'];
 ?>
 
 <!doctype html>
