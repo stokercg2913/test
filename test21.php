@@ -14,8 +14,8 @@ $lastname = $_POST['last_name'];
 </head>
 
 <body>
-<p><?php echo 'First Name: ' . $firstname; ?></p>
-<p><?php echo 'Last Name: ' . $lastname; ?></p>
+<p><?php echo 'First Name: ' . htmlspecialchars($firstname); ?></p>
+<p><?php echo 'Last Name: ' . htmlspecialchars($lastname); ?></p>
 </body>
 </html>
 
