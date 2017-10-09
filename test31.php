@@ -14,7 +14,8 @@
     <input type="text" name="first_name"/><br />
     <label>Last Name:</label>
     <input type="text" name="last_name"/><br />
-    <label>First Name:</label>
+    <label>Dollars in Bank:</label>
+    <input type="text" name="dollars"/><br />
     <input type="submit" value="Submit"/><br />
 </form>
 </body>

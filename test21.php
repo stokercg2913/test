@@ -1,6 +1,7 @@
 <?php
 $firstname = $_POST['first_name'];
 $lastname = $_POST['last_name'];
+$dollars = $_POST['dollars'];
 ?>
 
 <!doctype html>
@@ -16,6 +17,7 @@ $lastname = $_POST['last_name'];
 <body>
 <p><?php echo 'First Name: ' . htmlspecialchars($firstname); ?></p>
 <p><?php echo 'Last Name: ' . htmlspecialchars($lastname); ?></p>
+<p><?php echo 'Dollars in Bank: ' . htmlspecialchars(number_format($dollars, 2)); ?></p>
 </body>
 </html>
 
